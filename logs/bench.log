@@ -1,0 +1,69 @@
+2025-03-22 09:23:53,790 DEBUG cd frappe-bench && python3 -m venv env
+2025-03-22 09:23:56,935 DEBUG cd frappe-bench && /home/trushti/Project/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-03-22 09:23:58,938 DEBUG cd frappe-bench && /home/trushti/Project/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-03-22 09:24:02,323 LOG Getting frappe
+2025-03-22 09:24:02,324 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-03-22 09:24:13,752 LOG Installing frappe
+2025-03-22 09:24:13,752 DEBUG cd /home/trushti/Project/frappe-bench && /home/trushti/Project/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/trushti/Project/frappe-bench/apps/frappe 
+2025-03-22 09:25:04,919 DEBUG cd /home/trushti/Project/frappe-bench/apps/frappe && yarn install --check-files
+2025-03-22 09:25:10,082 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-22 09:25:10,082 DEBUG cd frappe-bench && bench build
+2025-03-22 09:25:10,259 INFO /usr/local/bin/bench build
+2025-03-22 09:25:31,414 LOG setting up backups
+2025-03-22 09:25:31,424 LOG backups were set up
+2025-03-22 09:25:31,425 INFO Bench frappe-bench initialized
+2025-03-22 09:26:14,799 INFO /usr/local/bin/bench new-site bench2.com
+2025-03-22 09:26:24,022 INFO /usr/local/bin/bench new-site bench2.com
+2025-03-22 09:26:50,769 INFO /usr/local/bin/bench new-site bench2.com
+2025-03-22 09:27:15,346 INFO /usr/local/bin/bench new-site pullbench.com
+2025-03-22 09:28:11,974 INFO /usr/local/bin/bench --site pullbench.com add-to-hosts
+2025-03-22 09:28:32,086 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2025-03-22 09:28:33,356 LOG Getting erpnext
+2025-03-22 09:28:33,356 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2025-03-22 09:28:43,104 LOG Installing erpnext
+2025-03-22 09:28:43,104 DEBUG cd /home/trushti/Project/frappe-bench && /home/trushti/Project/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/trushti/Project/frappe-bench/apps/erpnext 
+2025-03-22 09:28:49,664 DEBUG cd /home/trushti/Project/frappe-bench/apps/erpnext && yarn install --check-files
+2025-03-22 09:28:50,100 DEBUG bench build --app erpnext
+2025-03-22 09:28:50,262 INFO /usr/local/bin/bench build --app erpnext
+2025-03-22 09:28:53,462 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-22 09:29:11,184 INFO /usr/local/bin/bench --site pullbench.com install-app erpnext
+2025-03-22 10:17:48,338 INFO /usr/local/bin/bench start
+2025-03-22 10:17:48,617 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 10:17:48,677 INFO /usr/local/bin/bench watch
+2025-03-22 10:17:48,706 INFO /usr/local/bin/bench worker
+2025-03-22 10:17:48,709 INFO /usr/local/bin/bench schedule
+2025-03-22 10:18:10,542 INFO /usr/local/bin/bench use pullbench.com
+2025-03-22 10:18:19,944 INFO /usr/local/bin/bench start
+2025-03-22 10:18:20,246 INFO /usr/local/bin/bench schedule
+2025-03-22 10:18:20,265 INFO /usr/local/bin/bench worker
+2025-03-22 10:18:20,296 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 10:18:20,316 INFO /usr/local/bin/bench watch
+2025-03-22 13:32:18,128 INFO /usr/local/bin/bench satrt
+2025-03-22 13:32:21,193 INFO /usr/local/bin/bench start
+2025-03-22 13:32:21,577 INFO /usr/local/bin/bench schedule
+2025-03-22 13:32:21,577 INFO /usr/local/bin/bench worker
+2025-03-22 13:32:21,593 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 13:32:21,593 INFO /usr/local/bin/bench watch
+2025-03-22 14:19:13,435 INFO /usr/local/bin/bench get-app https://github.com/Trushti-siddhapura/Training-Task-3-Frappe-Framework.git
+2025-03-22 14:19:13,451 LOG Getting Training-Task-3-Frappe-Framework
+2025-03-22 14:19:13,452 DEBUG cd ./apps && git clone https://github.com/Trushti-siddhapura/Training-Task-3-Frappe-Framework.git  --depth 1 --origin upstream
+2025-03-22 14:19:15,436 LOG Installing librify
+2025-03-22 14:19:15,437 DEBUG cd /home/trushti/Project/frappe-bench && /home/trushti/Project/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/trushti/Project/frappe-bench/apps/librify 
+2025-03-22 14:19:19,257 DEBUG bench build --app librify
+2025-03-22 14:19:19,518 INFO /usr/local/bin/bench build --app librify
+2025-03-22 14:19:23,105 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-03-22 14:19:40,433 INFO /usr/local/bin/bench --site pullbench.com install-app librify
+2025-03-22 14:20:08,741 INFO /usr/local/bin/bench start
+2025-03-22 14:20:33,032 INFO /usr/local/bin/bench start
+2025-03-22 14:20:33,549 INFO /usr/local/bin/bench worker
+2025-03-22 14:20:33,616 INFO /usr/local/bin/bench watch
+2025-03-22 14:20:33,730 INFO /usr/local/bin/bench schedule
+2025-03-22 14:20:33,750 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 14:35:47,820 INFO /usr/local/bin/bench satrt
+2025-03-22 14:35:53,198 INFO /usr/local/bin/bench start
+2025-03-22 14:35:53,386 INFO /usr/local/bin/bench watch
+2025-03-22 14:35:53,390 INFO /usr/local/bin/bench worker
+2025-03-22 14:35:53,427 INFO /usr/local/bin/bench schedule
+2025-03-22 14:35:53,434 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 14:37:12,073 INFO /usr/local/bin/bench set-config developer_mode 1
+2025-03-22 14:52:22,013 INFO /usr/local/bin/bench export-fixtures
