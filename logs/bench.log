@@ -90,3 +90,17 @@
 2025-03-22 22:21:53,398 INFO /usr/local/bin/bench schedule
 2025-03-22 22:21:53,412 INFO /usr/local/bin/bench serve --port 8003
 2025-03-22 22:24:15,663 INFO /usr/local/bin/bench export-fixtures
+2025-03-22 22:45:11,871 INFO /usr/local/bin/bench satrt
+2025-03-22 22:45:17,791 INFO /usr/local/bin/bench start
+2025-03-22 22:45:18,072 INFO /usr/local/bin/bench watch
+2025-03-22 22:45:18,075 INFO /usr/local/bin/bench serve --port 8003
+2025-03-22 22:45:18,137 INFO /usr/local/bin/bench schedule
+2025-03-22 22:45:18,140 INFO /usr/local/bin/bench worker
+2025-03-22 22:47:55,134 INFO /usr/local/bin/bench --site task console
+2025-03-22 22:48:15,095 INFO /usr/local/bin/bench --site pullbench console
+2025-03-22 22:48:31,087 INFO /usr/local/bin/bench --site pullbench.com console
+2025-03-22 22:49:43,042 INFO /usr/local/bin/bench --site pullbench.com execute frappe.modules.import_file.import_files --kwargs {'reset': 1}
+2025-03-22 22:49:53,303 INFO /usr/local/bin/bench migrate
+2025-03-22 22:50:17,618 INFO /usr/local/bin/bench set-config developer_mode 1
+2025-03-22 22:50:23,347 INFO /usr/local/bin/bench start
+2025-03-22 22:58:20,205 INFO /usr/local/bin/bench --site pullbench.com export-fixtures
